@@ -1,0 +1,47 @@
+Arithmetic operators:
+
+Addition
+Subtraction
+Multiplication
+Division
+Remainder/Modulus
+exponent
+
+------------
+
+Order of Operations:
+
+Parenthesis()
+Exponent(^)
+multi and div (left to right)
+add and sub (left to right)
+
+------------
+
+Rational operators:
+
+greater than
+less than
+greater than/equal
+less than/equal
+equal to
+not equal
+
+------------
+
+Logical operators:
+
+And (&) - Returns TRUE if both the conditions are true, else return FALSE
+
+example: > 10>20 & 10<20
+         [1] FALSE
+
+Or (|) - Returns TRUE if any one of the conditions results is TRUE
+       
+example: > 10>20 | 10<20
+         [1] TRUE
+
+Not (!) - Takes each element of the vector and gives the opposite logical value
+
+example: > !(10 == 3)
+         [1] TRUE
